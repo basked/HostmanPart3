@@ -118,7 +118,7 @@ public class Books implements Serializable {
     public void setGenresCollection(Collection<Genres> genresCollection) {
         this.genresCollection = genresCollection;
     }
-
+//
     @XmlTransient
     public Collection<Authors> getAuthorsCollection() {
         return authorsCollection;
