@@ -9,7 +9,7 @@ import java.sql.Statement;
  * running SELECT and INSERT query to retrieve and add data.
  * @author Javin Paul
  */
-public class NewMain {
+public class ConnectToMySQL {
  
     // JDBC URL, username and password of MySQL server
     private static final String url = "jdbc:mysql://localhost:3306/epam_db";
