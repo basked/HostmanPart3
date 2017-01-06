@@ -118,7 +118,8 @@ public class Books implements Serializable {
     public void setGenresCollection(Collection<Genres> genresCollection) {
         this.genresCollection = genresCollection;
     }
-//basket
+//bas
+    //ket
     @XmlTransient
     public Collection<Authors> getAuthorsCollection() {
         return authorsCollection;
@@ -161,5 +162,5 @@ public class Books implements Serializable {
     public String toString() {
         return "Epam_DB.Books[ bId=" + bId + " ]";
     }
-
+    
 }
