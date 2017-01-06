@@ -19,7 +19,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
- * @author Admin
+ * @author Admin fix tex
  */
 @Entity
 @Table(catalog = "epam_db", schema = "")
