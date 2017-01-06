@@ -15,12 +15,12 @@ public class ConnectToMySQL {
     private static final String url = "jdbc:mysql://localhost:3306/epam_db";
     private static final String user = "root";
     private static final String password = "root";
- 
+ //kjkj
     // JDBC variables for opening and managing connection
     private static Connection con;
     private static Statement stmt;
     private static ResultSet rs;
- 
+  
     public static void main(String args[]) {
         String query = "select count(*) from books";
  
