@@ -14,7 +14,7 @@ public class ConnectToMySQL {
     // JDBC URL, username and password of MySQL server
     private static final String url = "jdbc:mysql://localhost:3306/epam_db";
     private static final String user = "root";
-    private static final String password = "root";
+    private static final String password = "";
  //teksabb
     // JDBC variables for opening and managing connection
     private static Connection con;
